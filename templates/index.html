@@ -1,0 +1,38 @@
+<!-- Conteúdo principal -->
+
+{% include 'cabecalho.html' %}
+{% include 'menu.html' %}
+
+<main class="container my-4">
+  <h1>Bem-vindo ao Painel</h1>
+  <p>Este é um exemplo simples de layout de dashboard usando Bootstrap.</p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Usuários</h5>
+          <p class="card-text">Total: 120</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Pedidos</h5>
+          <p class="card-text">Em andamento: 45</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Faturamento</h5>
+          <p class="card-text">R$ 32.500</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+{% include 'rodape.html' %}
